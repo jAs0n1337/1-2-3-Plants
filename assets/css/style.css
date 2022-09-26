@@ -1,0 +1,174 @@
+@font-face {
+    font-family: Fredericka;
+    src: url("../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf");
+}
+
+@font-face {
+    font-family: Open-Sans;
+    src: url("../fonts/Open_Sans/static/OpenSans/OpenSans-Medium.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background-image: url("../img/Pflanzenbild.jpg");
+    background-size: cover;
+    color: white;
+    margin: auto;
+}
+
+header h1 {
+    margin-left: 25vh;
+    padding: 10px 0;
+    margin-bottom: 300px;
+}
+
+header h2 {
+    margin-top: 500px;
+    margin-bottom: 500px;
+}
+
+header h2,
+header p,
+header p a {
+    width: 350px;
+    margin: 20px auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+header h1,
+header h2 {
+    font-family: Fredericka;
+}
+
+header p,
+header a,
+header nav ul li {
+    font-family: Open-Sans;
+    color: white;
+}
+
+header p a {
+    text-decoration: none;
+    margin: 0 auto;
+    border: 2px solid white;
+    padding: 8px 30px;
+}
+
+header nav {
+    margin-top: 200px;
+    padding-bottom: 100px;
+}
+
+header nav ul li {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: right;
+    margin-right: 25vh;
+    margin-bottom: 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header p a:hover {
+    color: black;
+    background-color: white;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main section h3 {
+    font-family: Fredericka;
+    width: 500px;
+    text-align: center;
+    margin: 50px auto 50px auto;
+    font-size: 25px;
+}
+
+main section p:nth-of-type(1) {
+    font-family: Open-Sans;
+    text-align: center;
+    width: 550px;
+    margin: 0 auto 50px auto;
+}
+
+#test {
+    font-family: Open-Sans;
+    text-align: center;
+    border: 5px double black;
+    margin: 0 auto 125px auto;
+    width: 200px;
+    padding: 10px 0;
+    text-decoration: none;
+}
+
+main section p a {
+    font-family: Open-Sans;
+    text-decoration: none;
+    color: black;
+}
+
+main section p a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    font-family: Open-Sans;
+    background-color: rgb(47, 48, 55);
+}
+
+footer p:nth-of-type(1) {
+    color: white;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    width: 350px;
+}
+
+footer ul {
+    text-align: right;
+    padding: 0 10px 10px 0;
+    margin-top: 50px;
+}
+
+footer ul li {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    text-align: right;
+    margin-left: 50px;
+}
+
+footer ul li:hover {
+    text-decoration: underline;
+}
+
+footer p a {
+    border: 2px solid white;
+    margin: 10px 0 0 50px;
+    text-align: center;
+    padding: 10px 50px;
+
+}
+
+footer p a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* warum kann sich eine Margin-top aus dem Footer in den Main Bereich hinein überlappen?? */
